@@ -8,3 +8,10 @@ nova_mensagem = mensagem.split(' ')
 print(type(nova_mensagem)) # type 'list'
 print(nova_mensagem)
 print(f"\n{'\n'.join(nova_mensagem)}")
+
+#%%
+meuTexto = "Esta lista contém muitos nomes"
+
+print(f"{meuTexto if "muitos" in meuTexto else 'Nem são tantos nomes assim na lista'}")
+
+#%%
