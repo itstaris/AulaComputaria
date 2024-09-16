@@ -15,3 +15,7 @@ meuTexto = "Esta lista contém muitos nomes"
 print(f"{meuTexto if "muitos" in meuTexto else 'Nem são tantos nomes assim na lista'}")
 
 #%%
+
+frase = "isabela davolio gosta de mamão"
+print(frase.capitalize)
+#%%

@@ -25,3 +25,4 @@ por 'pizinho' ser um float, o replace não funciona (método string). daria cert
         pizinho = round(pizão, 2)
         print(f"{pizinho:,}")
 '''
+
